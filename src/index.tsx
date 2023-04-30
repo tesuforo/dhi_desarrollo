@@ -1,5 +1,19 @@
-import React from "react";
+import React, { useContext, useEffect, useRef, useState } from 'react';
+import { Button } from 'primereact/button';
+import { Chart } from 'primereact/chart';
+import { Column } from 'primereact/column';
+import { DataTable } from 'primereact/datatable';
+import { Menu } from 'primereact/menu';
 import ReactDOM from "react-dom";
+import { ProductService } from '../demo/service/ProductService';
+import { LayoutContext } from '../layout/context/layoutcontext';
+import Link from 'next/link';
+import { Demo } from '../types/types';
+import { ChartData, ChartOptions } from 'chart.js';
+
+
+
+
 import 'bootswatch/dist/yeti/bootstrap.css'
 import "./index.css";
 import { App } from "./App";
@@ -7,7 +21,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title="React Typescript" />
+    <App title="DHI" />
   </React.StrictMode>,
   document.getElementById("root")
 );
