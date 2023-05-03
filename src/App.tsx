@@ -74,3 +74,4 @@ export const App = ({ title = "default title" }: Props): JSX.Element => {
     </div>
   );
 };
+

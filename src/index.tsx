@@ -21,7 +21,7 @@ import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App title="DHI" />
+    <App title="oReact Typescript" />
   </React.StrictMode>,
   document.getElementById("root")
 );
